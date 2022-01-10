@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.welcome{
+    
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+a{
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(255, 81, 0), rgba(235, 195, 190, 0.575));
+}
+.half-width{
+    width: 38%;
+}
+.half-width img{
+    width: 100%;
+}
+
+/* Dream-Big */
+h2{
+    font-size: 40px;
+}
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* Experiences */
+.aa{
+    border-left: 5px solid;
+    padding-left: 40px;
+    box-shadow: 5px 5px 23px black;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+.bb{
+    border-left: 5px solid;
+    padding-left: 40px;
+    box-shadow: 5px 5px 23px black;
+    border-image: linear-gradient(orange,rgb(218, 211, 199)) 1;
+    position: absolute;
+    top: 1200px;
+    left: 56%;
+}
+.experiences{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
